@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"/>
+
+
+    <EditText
+
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Description"/>
+
+    <EditText
+        android:id="@+id/aPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Price"/>
+
+
+
+
+    <EditText
+        android:id="@+id/bedtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="bedtype"/>
+    <EditText
+        android:id="@+id/roomtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Roomty[e"/>
+
+
+    <Button
+        android:id="@+id/aBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add room"/>
+
+</LinearLayout>

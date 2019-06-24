@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/blog"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:text="Welcome to Hotel View Point"
+                />
+            <FrameLayout
+                android:id="@+id/f"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+            <include layout="@layout/nav_bar"
+            />
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="bottom"
+    android:theme="@style/Theme.AppCompat.DayNight"
+    android:padding="16dp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hotel1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="20dp"
+        android:paddingTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/acme"
+        />
+
+
+
+</LinearLayout>
